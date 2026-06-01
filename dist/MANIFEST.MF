@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Created-By: 26.0.1+8-34 (Oracle Corporation)
+Built-By: Volker Voss (volker.v@gmx.net)
+Build-Jdk: 26.0.1+8-34
+Specification-Title: GDL90 Library
+Specification-Version: 1.0.0
+Specification-Vendor: Volker Voss
+Implementation-Title: GDL90 Library
+Implementation-Version: 1.0.0
+Implementation-Vendor: Volker Voss
+Main-Class: de.volkervoss.gdl90.Tester
+Class-Path: . 
+

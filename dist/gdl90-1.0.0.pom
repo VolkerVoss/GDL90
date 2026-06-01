@@ -1,0 +1,56 @@
+<project
+	xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>io.github.volkervoss</groupId>
+	<artifactId>gdl90</artifactId>
+	<version>1.0.0</version>
+	<packaging>jar</packaging>
+	<name>GDL90</name>
+	<licenses>
+		<license>
+			<name>BSD-2-Clause</name>
+			<url>https://github.com/VolkerVoss/GDL90/blob/master/license</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+	<url>https://github.com/VolkerVoss/GDL90</url>
+	<description>This repository contains a general Java implementation of the GDL90 protocol basing on an Android App made by Frank van der Hulst drifter.frank@gmail.com.</description>
+	<developers>
+		<developer>
+			<name>Volker Voß</name>
+			<email>volker.v@gmx.net</email>
+		</developer>
+	</developers>
+	<scm>
+		<connection>scm:git:https://github.com/VolkerVoss/GDL90.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com:VolkerVoss/GDL90.git</developerConnection>
+		<tag>HEAD</tag>
+		<url>https://github.com/VolkerVoss/GDL90</url>
+	</scm>
+	<issueManagement>
+		<url>https://github.com/VolkerVoss/GDL90/issues</url>
+		<system>GitHub</system>
+	</issueManagement>
+	<dependencies>
+		<dependency>
+ 		   <groupId>org.orekit</groupId>
+ 		   <artifactId>orekit</artifactId>
+ 		   <version>13.1.5</version>
+		    <scope>compile</scope>
+		</dependency>
+		<dependency>
+ 		   <groupId>org.hipparchus</groupId>
+ 		   <artifactId>hipparchus-core</artifactId>
+ 		   <version>4.0.3</version>
+ 		   <scope>compile</scope>
+		</dependency>
+		<dependency>
+		    <groupId>org.hipparchus</groupId>
+		    <artifactId>hipparchus-geometry</artifactId>
+		    <version>4.0.3</version>
+		    <scope>compile</scope>
+		</dependency>
+	</dependencies>
+</project>
